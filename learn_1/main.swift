@@ -10,3 +10,6 @@ import Foundation
 
 println("Hello, World!")
 
+for(var i = 1;i<100;i++){
+    println(Repeat(count: i, repeatedValue: ".").generate());
+}
